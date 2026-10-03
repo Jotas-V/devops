@@ -6,7 +6,7 @@ on:
     paths:
       - 'terraform/**'
   pull_request:
-    branches: [ hostname ]
+    branches: [ main ]
     paths:
       - 'terraform/**'
   workflow_dispatch:
